@@ -1,0 +1,131 @@
+/* Initial body */
+body {
+  right: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  background-image: url("./codewall.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center; 
+}
+
+/* Initial menu */
+.menu {
+  background:linear-gradient(to bottom, #333, #666);
+  right: -285px;/*  start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  border:3px solid white;
+  border-radius:15px;
+}
+.imgwpl{
+  overflow: hidden;
+  position: relative;
+  margin:0 auto;
+  left:0px;
+  position: relative;
+  
+
+}
+
+/* Basic styling */
+
+.jumbotron {
+  
+    height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  
+
+}
+
+.menu ul {
+  border-top: 1px solid black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid black;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  text-align:center;
+}
+
+.menu a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:bold;
+  opacity: 0.8;
+}
+
+.icon-close {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  padding-right: -110px;
+  padding-top: 10px;
+  margin:0;
+}
+.icon-close img{
+  margin:10px;
+  padding-left: 10px;
+}
+
+.icon-menu {
+  color: black;
+  cursor: pointer;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 42px;
+  padding-right: 15px;
+  padding-top: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align:center;
+  margin-top: 7px;
+  margin-right: 7px;
+
+}
+
+.icon-menu i {
+  margin-right: 10px;
+}
+
+.menu a:hover{
+  display:block;
+  height:40px;
+  line-height:40px;
+  border-radius:5px;
+  border:5px solid #000;
+  background: black repeat right top;
+}
+
+.icon-menu:hover{
+  border:2px solid black;
+  border-radius:5px;
+  color: white;
+  background:linear-gradient(to bottom, #666, #333);
+  font-weight:bold;
+  box-shadow:2px 8px 35px #000;
+}
+
+.menu > .hidden > ul > li >ul {
+  display: none;
+}
+.lol li a{
+  color:red;
+  display: none;
+  border:none;
+}
+
+
