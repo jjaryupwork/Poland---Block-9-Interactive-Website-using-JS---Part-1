@@ -20,11 +20,6 @@ var main = function() {
   });
 
 };
-$('.menu .lol li a').click(function() {
-  $(this).parent().siblings().find('ul').fadeOut(300);
-  $(this).next('ul').stop(true, false, true).fadeToggle(300);
-  return false;
-});
 $(document).ready(main);
 
 
